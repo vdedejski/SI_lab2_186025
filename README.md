@@ -23,16 +23,16 @@
 ![Screenshot](test_cases_every_statement.png)
 
 Влезот за тестовите е во формат [User.username, User.email, [allUsers]].
-(user == null), се смета за исполнет услов при тест случај [null, null, 'anything']
+(user == null), се смета за исполнет услов при тест случај [null, null, 'anything'].
 Полињата означени со '⚫' покажуваат дека програмата со соодветниот тест пример ќе ја тестира таа наредба во соодветното поле, а празните полиња дека со тој тест пример нема да се тестира наредбата во тоа поле.
 Според Еvery Statement критериумот, доволни би биле овие два тест случаи, бидејќи програмта на тој начин, барем еднаш ќе ја тестира секоја наредба во кодот.
 
 ### Тест случаи според критериумот Every path
 ![Screenshot](test_cases_every_path.png)
 
-Влезот за тестовите е во формат [User.username, User.password, User.email, allUsers]
+Влезот за тестовите е во формат [User.username, User.password, User.email, allUsers].
 Oзнаката '?' во влезот означува било што при влез.
-(user == null), се смета за исполнет услов при тест случај [null, null, null, '?'], односно само кога (username == null && password == null && email == null)
+(user == null), се смета за исполнет услов при тест случај [null, null, null, '?'], односно само кога (username == null && password == null && email == null).
 
 ### Објаснување на напишаните unit tests
 
